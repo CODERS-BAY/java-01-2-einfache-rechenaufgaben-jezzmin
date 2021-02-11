@@ -5,10 +5,15 @@ public class Main {
         int number1 = 250;
         int number2 = 135;
 
-        System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
-        System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
-        System.out.println(number1 + " : " + number2 + " = " + (number1 / number2));
-        System.out.println(number1 + " x " + number2 + " = " + (number1 * number2));
+        int resultPlus0 = number1 + number2;
+        int resultDeficit0 = number1 - number2;
+        int resultDecided0 = number1 / number2;
+        int resultMultiplied0 = number1 * number2;
+
+        System.out.printf("%d + %d = %d \n",number1,number2,resultPlus0);
+        System.out.printf("%d - %d = %d \n",number1,number2,resultDeficit0);
+        System.out.printf("%d : %d = %d \n",number1,number2,resultDecided0);
+        System.out.printf("%d * %d = %d \n",number1,number2,resultMultiplied0);
 
         double number3 = 10.6;
         double number4 = 4.76;
